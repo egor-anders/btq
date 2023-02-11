@@ -8,8 +8,8 @@
 
 <section class="page">
     <div class="container">
-        <div class="page_red">
-            <div class="page_title">Продукты</div>
+        <div class="page_red page_red--_indicies">
+            <div class="page_title page_title--_indicies">Продукты</div>
             <div class="page_text">
                 Жизнь это всегда развитие и движение <br>
                 только вперед

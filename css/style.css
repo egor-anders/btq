@@ -85,6 +85,10 @@ header {
   display: none;
 }
 
+.third_brand {
+  padding-left: 25px;
+}
+
 .menu_burger {
   display: none;
   background: #fff;
@@ -2861,6 +2865,10 @@ border-bottom: 3px solid #4169e1;
 }
 
 
+.third_brand {
+  padding-left: 25px;
+}
+
 
 
 
@@ -2874,6 +2882,10 @@ border-bottom: 3px solid #4169e1;
   }
   .default_title {
     background-size: 190px;
+  }
+
+  .third_brand {
+    padding-left: 0;
   }
 }
 
@@ -2951,6 +2963,10 @@ border-bottom: 3px solid #4169e1;
   }
   .default_padding_bottom {
     padding-bottom: 50px;
+  }
+
+  .third_brand {
+    padding-left: 25px;
   }
 }
 
@@ -3083,13 +3099,24 @@ border-bottom: 3px solid #4169e1;
   }
 
   .page_red {
+    min-width: auto;
+  }
+
+  .page_red--_indicies {
     max-width: none;
     min-width: auto;
     margin-top: 177px;
+    max-width: 375px;
   }
 
-  .page_title {
+  .page_title--_indicies {
     padding-top: 70px;
+  }
+
+  .page_title--about {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
   }
 
   .reg_form {
@@ -3111,27 +3138,31 @@ border-bottom: 3px solid #4169e1;
   }
 
   .page_text {
-    font-size: 17px;
+    font-size: 16px;
+  }
+
+  .brands {
+    flex-direction: column;
+  }
+
+  .third_brand {
+    padding-left: 10px;
   }
 } 
 
 
-@media (max-width: 576px) {
-  .page_ico_block_text {
-    padding-top: 0;
-  }
-  .tradingview-widget-container {
-    width: 245px !important;
-    height: 100% !important;
-  }
-  /* .page_text {
-    padding-bottom: 35px;
-  }
-  .bg_page {
-    height: 517px;
-  } */
-
+@media (max-width: 414px) {
   a.button {
     font-size: 16px;
+  }
+
+  .third_brand {
+    margin-right: 80px;
+  }
+} 
+
+@media (max-width: 407px) {
+  .page_title--about {
+    padding-top: 43px;
   }
 } 

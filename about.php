@@ -9,7 +9,7 @@
 <section class="page"> 
     <div class="container">
         <div class="page_red">
-            <div class="page_title">О НАШЕЙ КОМПАНИИ</div>
+            <div class="page_title page_title--about">О НАШЕЙ КОМПАНИИ</div>
             <div class="page_text">
                 Жизнь это всегда развитие и движение <br>
                 только вперед
@@ -139,14 +139,14 @@
             доступ к прибыльным рынкам Bitcoin и Litecoin.
         </div>
 
-        <div class="row justify-content-center align-items-center">
+        <div class="row justify-content-center align-items-center brands">
             <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
                 <img src="./img/output/qiwi.svg">
             </div>
             <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
                 <img src="./img/output/neteller.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 third_brand">
                 <img src="./img/output/mastercard.svg">
             </div>
             <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
