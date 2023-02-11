@@ -34,7 +34,7 @@
               </div>
               <!-- <div class="swiper-slide">
                   
-                <div class="col-5 left teaser_block">
+                <div class="col-5 left teaser_block"><img
                     <img src="../img/card.png" class="teaser">
                     <div class="teaser_text"> <span>%</span> Снятие без процентов во всех банкоматах мира</div>
                 </div>
@@ -244,7 +244,7 @@
                   <div class="swiper-slide">
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="float:left;margin-right: 20px;">
+<div class="tradingview-widget-container tradingview-widget-container--index" style="float:left;margin-right: 20px;">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -266,7 +266,7 @@
 <!-- TradingView Widget END -->
 
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="float:left;">
+<div class="tradingview-widget-container tradingview-widget-container--index" style="float:left;">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -289,7 +289,7 @@
                   </div>
                   <div class="swiper-slide">
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="float:left;margin-right: 20px;">
+<div class="tradingview-widget-container tradingview-widget-container--index" style="float:left;margin-right: 20px;">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -310,7 +310,7 @@
 </div>
 <!-- TradingView Widget END -->
 <!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container" style="float:left;">
+<div class="tradingview-widget-container tradingview-widget-container--index" style="float:left;">
   <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-mini-symbol-overview.js" async>
@@ -576,7 +576,7 @@
 
         </div>
 
-        <div class="trading_block trading_shadow">
+        <div class="trading_block trading_shadow slider__size">
             <div class="tariff">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
@@ -959,31 +959,31 @@
             <div class="output_subtitle">Система вывода денег работет круглосуточно</div>
         </div>
 
-        <div class="row justify-content-center align-items-center">
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+        <div class="row justify-content-center align-items-center partners_list">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/qiwi.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/neteller.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/mastercard.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/webmoney.svg">
             </div>
         </div>
-        <div class="row justify-content-center">
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+        <div class="row justify-content-center partners_list">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/yandex.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/skrill.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/paypal.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 partners_item">
                 <img src="./img/output/visa.svg">
             </div>
         </div>
@@ -1040,6 +1040,7 @@
             <div class="left">
                 <div class="director_name">Михаэль Штейн</div>
                 <div class="director_sub">Главный финансовый директор Bitqon</div>
+                <img src="img/bitqon.jpg" alt="" class="mobile_img">
             </div>
             
 

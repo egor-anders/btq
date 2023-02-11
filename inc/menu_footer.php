@@ -30,12 +30,12 @@
                 <div class="menu_href"><a href="/energetics.php">Энергетика</a></div>
                 <div class="menu_href"><a href="/portfolio_investment.php">Портфельные инвестиции</a></div>
             </div>
-            <div class="left menu_block col-md-auto">
+            <div class="left menu_block col-md-auto tablet-margin">
                 <div class="menu_title">Аналитики</div>
                 <div class="menu_href"><a href="/tools_analytics.php">Инструменты анализа</a></div>
                 <div class="menu_href"><a href="/expert_analytics.php">Экспертная аналитика</a></div>
             </div>
-            <div class="left menu_block col-md-auto">
+            <div class="left menu_block col-md-auto laptop-margin">
                 <div class="menu_title">Обучение</div>
                 <div class="menu_href"><a href="/trading_platform.php">Торговая платформа</a></div>
                 <div class="menu_href"><a href="/cryptocurrencies.php">Криптовалюты</a></div>

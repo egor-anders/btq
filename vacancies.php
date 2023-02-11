@@ -1,10 +1,12 @@
+
+
+<div class="top" style="background-image: url('/img/page/about.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Открытые вакансии :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/about.jpg" class="bg_page">
 
 <section class="page"> 
     <div class="container">
@@ -18,6 +20,7 @@
 
     </div>
 </section>
+</div>
 
 <section class="page_content">
     <div class="container">
@@ -74,7 +77,7 @@
 
         <div class="row justify-content-center">
             <div class="col-12 col-md-12 col-lg-5 col-xl-6 page_ico_block">
-                <div class="col-2 col-md-2 left">
+                <div class="col-2 col-md-2 left num-pl">
                     <img src="../img/page/icon/back_white.svg" class="left">
                 </div>
                 <div class="col-8 col-md-9 left page_ico_block_text">
@@ -83,7 +86,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-5 col-xl-6 page_ico_block left">
-                <div class="col-2 col-md-2 left">
+                <div class="col-2 col-md-2 left num-pl">
                     <img src="../img/page/icon/capitan_white.svg" class="left">
                 </div>
                 <div class="col-8 col-md-9 left page_ico_block_text">
@@ -108,7 +111,7 @@
 
         <div class="row default_padding">
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -116,7 +119,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -124,7 +127,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -132,7 +135,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -140,7 +143,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -148,7 +151,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -156,7 +159,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -164,7 +167,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -172,7 +175,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
@@ -180,7 +183,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 col-xl-3 page_check_block">
-                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left">
+                <div class="col-1 col-md-2 col-lg-2 col-xl-2 left num-pl">
                     <img src="../img/page/icon/check_white.svg">
                 </div>
                 <div class="col-12 col-md-12 col-lg-12 col-xl-12">
