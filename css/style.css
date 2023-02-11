@@ -57,7 +57,7 @@
 
 body {
   font-family: "TT Norms Pro";
-  min-width: 576px;
+  min-width: 320px;
 }
 
 input {
@@ -2085,7 +2085,7 @@ footer {
   min-width: 505px;
   margin: 0 auto;
   border-radius: 350px 350px 0 0;
-  margin-top: 70px;
+  margin-top: 69px;
 }
 
 .page_menu {
@@ -3050,6 +3050,10 @@ border-bottom: 3px solid #4169e1;
   .bg_page {
     margin-top: -185px;
   }
+
+  .page_red {
+    max-width: 570px;
+  }
 }
 
 
@@ -3069,4 +3073,65 @@ border-bottom: 3px solid #4169e1;
   .bg_page {
     height: 517px;
   } */
+
+  a.button {
+    font-size: 17px;
+  }
+
+  .bg_page {
+    width: 100%;
+  }
+
+  .page_red {
+    max-width: none;
+    min-width: auto;
+    margin-top: 177px;
+  }
+
+  .page_title {
+    padding-top: 70px;
+  }
+
+  .reg_form {
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .reg_form .data {
+    width: 100%;
+  }
+
+  .iti--separate-dial-code {
+    width: 100%;
+  }
+
+  .container {
+    max-width: none;
+  }
+
+  .page_text {
+    font-size: 17px;
+  }
+} 
+
+
+@media (max-width: 576px) {
+  .page_ico_block_text {
+    padding-top: 0;
+  }
+  .tradingview-widget-container {
+    width: 245px !important;
+    height: 100% !important;
+  }
+  /* .page_text {
+    padding-bottom: 35px;
+  }
+  .bg_page {
+    height: 517px;
+  } */
+
+  a.button {
+    font-size: 16px;
+  }
 } 
