@@ -1,10 +1,10 @@
+<div class="top" style="background-image: url('/img/page/products.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Индексы :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/products.jpg" class="bg_page">
 
 <section class="page">
     <div class="container">
@@ -18,6 +18,10 @@
 
     </div>
 </section>
+
+</div>
+
+
 
 <section class="page_content default_padding_bottom">
     <div class="container">
@@ -36,8 +40,8 @@
                 <p class="page_content_desc"><strong>Мы работает с такими индексами как:</strong></p>
                 <table border="0" cellspacing="0" cellpadding="0">
                     <tbody>
-                        <tr>
-                            <td valign="top">
+                        <tr class="indices__table">
+                            <td class="indices__item" valign="top">
                                 <ul type="disc">
                                     <li><a>SPX</a> (ИНДЕКС STANDARD &amp; POOR&rsquo;S 500)</li>
                                     <li><a>IXIC</a> (ИНДЕКС NASDAQ COMPOSITE)</li>
@@ -50,7 +54,7 @@
                                 </ul>
                                 <p>&nbsp;</p>
                             </td>
-                            <td valign="top">
+                            <td class="indices__item" valign="top">
                                 <ul type="disc">
                                     <li><a>SPX</a> (DИНДЕКС STANDARD &amp; POOR&rsquo;S 500)</li>
                                     <li><a>SVX</a>D( ИНДЕКС S&amp;P 500 VALUE)</li>
@@ -62,7 +66,7 @@
                                 </ul>
                                 <p>&nbsp;</p>
                             </td>
-                            <td valign="top">
+                            <td class="indices__item" valign="top">
                                 <ul type="disc">
                                     <li><a>SPN</a>DS&amp;P 500 ENERGY</li>
                                     <li><a>S5UTIL</a>DS&amp;P 500 UTILITIES</li>

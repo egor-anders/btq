@@ -1,10 +1,10 @@
+<div class="top" style="background-image: url('/img/page/training.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Криптовалюты :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/training.jpg" class="bg_page">
 
 <section class="page">
     <div class="container">
@@ -18,6 +18,10 @@
 
     </div>
 </section>
+
+</div>
+
+
 
 <section class="page_content default_padding_bottom">
     <div class="container">

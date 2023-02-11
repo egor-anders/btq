@@ -1,10 +1,10 @@
+<div class="top" style="background-image: url('/img/page/trade.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Оферта и Соглашение  :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/trade.jpg" class="bg_page">
 
 <section class="page"> 
     <div class="container">
@@ -18,6 +18,9 @@
 
     </div>
 </section>
+</div>
+
+
 
 <section class="page_content">
     <div class="container">

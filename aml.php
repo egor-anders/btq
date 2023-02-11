@@ -1,22 +1,26 @@
+<div class="top" style="background-image: url('/img/page/about.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "AML POLICY / ПОЛИТИКА AML :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/about.jpg" class="bg_page">
 
-<section class="page"> 
+<section class="page">
     <div class="container">
         <div class="page_red">
             <div class="page_title">AML POLICY</div>
             <div class="page_text">
-                ПОЛИТИКА AML <br><br>
+            ПОЛИТИКА AML <br><br>
             </div>
         </div>
 
     </div>
 </section>
+
+</div>
+
+
 
 <!-- <section class="page_menu">
     <div class="container">

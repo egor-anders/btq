@@ -1,10 +1,12 @@
+
+
+<div class="top" style="background-image: url('/img/page/trade.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Как начать торговлю :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/trade.jpg" class="bg_page">
 
 <section class="page">
     <div class="container">
@@ -18,6 +20,8 @@
 
     </div>
 </section>
+</div>
+
 
 <section class="page_content">
     <div class="container">
@@ -57,7 +61,7 @@
 
         <div class="row justify-content-start default_padding_mini_bottom">
             <div class="col-12 col-md-12 col-lg-12 col-xl-6 num_block_end">
-                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left">
+                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left num-pl">
                     <div class="default_num">1</div>
                 </div>
                 <div class="col-10 col-md-10 col-lg-11 col-xl-10 left page_ico_block_text">
@@ -67,7 +71,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12 col-xl-6 num_block_end">
-                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left">
+                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left num-pl">
                     <div class="default_num">2</div>
                 </div>
                 <div class="col-10 col-md-10 col-lg-11 col-xl-10 left page_ico_block_text">
@@ -81,7 +85,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12 col-xl-6 num_block_end">
-                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left">
+                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left num-pl">
                     <div class="default_num">3</div>
                 </div>
                 <div class="col-10 col-md-10 col-lg-11 col-xl-10 left page_ico_block_text">
@@ -95,7 +99,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-12 col-lg-12 col-xl-6 num_block_end">
-                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left">
+                <div class="col-2 col-md-2 col-lg-1 col-xl-2 left num-pl">
                     <div class="default_num">4</div>
                 </div>
                 <div class="col-10 col-md-10 col-lg-11 col-xl-10 left page_ico_block_text">

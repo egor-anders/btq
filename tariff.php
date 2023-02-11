@@ -1,10 +1,11 @@
+
+
+<div class="top" style="background-image: url('/img/page/trade.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Типы счетов :: Bitqon";
     include './inc/header.php';
 ?>
-
-<img src="./img/page/trade.jpg" class="bg_page">
 
 <section class="page">
     <div class="container">
@@ -18,6 +19,7 @@
 
     </div>
 </section>
+</div>
 
 <section class="tariff">
     <div class="container">
@@ -122,7 +124,7 @@
 
         </div>
 
-        <div class="trading_block trading_shadow default_margin_bottom">
+        <div class="trading_block trading_shadow slider__size default_margin_bottom">
             <div class="tariff">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">

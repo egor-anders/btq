@@ -1,10 +1,10 @@
+<div class="top" style="background-image: url('/img/page/about.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "О Bitqon :: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/about.jpg" class="bg_page">
 
 <section class="page"> 
     <div class="container">
@@ -18,6 +18,11 @@
 
     </div>
 </section>
+
+</div>
+
+
+
 
 <!-- <section class="page_menu">
     <div class="container">

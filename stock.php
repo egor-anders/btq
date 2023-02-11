@@ -1,10 +1,12 @@
+
+
+<div class="top" style="background-image: url('/img/page/products.jpg');">
 <?php
     $page = 'page_bg';
     $page_title = "Акции:: Bitqon";
     include './inc/header.php';
 ?>
 
-<img src="./img/page/products.jpg" class="bg_page">
 
 <section class="page"> 
     <div class="container">
@@ -18,6 +20,8 @@
 
     </div>
 </section>
+</div>
+
 
 <section class="page_content">
     <div class="container">
@@ -80,7 +84,7 @@
                 </div>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-6">
-                <img src="./img/page/bitmap/phone_two.png">
+                <img class="phone__img" src="./img/page/bitmap/phone_two.png">
             </div>
         </div>
 
@@ -96,7 +100,7 @@
             </div>
      
                 <div class="col-12 col-md-12 col-lg-4 col-xl-4 howto_ico">
-                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center">
+                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center num-pl">
                         <img src="img/page/icon/apple.svg" class="howto_ico_svg">
                     </div>
                     <div class="col-10 col-md-10 col-lg-9 col-xl-9 howto_ico_text text_align_center">
@@ -105,7 +109,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 col-xl-4 howto_ico">
-                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center">
+                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center num-pl">
                         <img src="img/page/icon/shield_v2.svg" class="howto_ico_svg">
                     </div>
                     <div class="col-10 col-md-10 col-lg-9 col-xl-9 howto_ico_text text_align_center">
@@ -114,7 +118,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-12 col-lg-4 col-xl-4 howto_ico">
-                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center">
+                    <div class="col-2 col-md-2 col-lg-3 col-xl-3 left text_align_center num-pl">
                         <img src="img/page/icon/folder.svg" class="howto_ico_svg">
                     </div>
                     <div class="col-10 col-md-10 col-lg-9 col-xl-9 howto_ico_text text_align_center">
@@ -469,19 +473,19 @@
 
                 <div class="text_mini">Существует две методики инвестирования в ценные бумаги:</div>
                 <div class="row align-items-center defult_title_ico">
-                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 page_ico_block">
-                        <div class="col-2 col-md-2 col-lg-3 col-xl-4 left">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 page_ico_block stock_item">
+                        <div class="col-2 col-md-2 col-lg-3 col-xl-4 left num-pl">
                             <img src="../img/page/icon/back_new.svg" class="left">
                         </div>
-                        <div class="col-10 col-md-10 col-lg-9 col-xl-8 left page_ico_block_text">
+                        <div class="col-10 col-md-10 col-lg-9 col-xl-8 left page_ico_block_text stock_text">
                             Портфельный
                         </div>
                     </div>
-                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 page_ico_block left">
-                        <div class="col-2 col-md-2 col-lg-3 col-xl-4 left">
+                    <div class="col-12 col-md-12 col-lg-6 col-xl-6 page_ico_block left stock_item">
+                        <div class="col-2 col-md-2 col-lg-3 col-xl-4 left num-pl">
                             <img src="../img/page/icon/shot.svg" class="left">
                         </div>
-                        <div class="col-10 col-md-10 col-lg-9 col-xl-8 left page_ico_block_text">
+                        <div class="col-10 col-md-10 col-lg-9 col-xl-8 left page_ico_block_text stock_text">
                             Прямой
                         </div>
                     </div>

@@ -53,6 +53,16 @@
   .page_content .container {
     max-width: 1140px;
   }
+
+  .stock_text {
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+
+  .stock_item {
+    display: flex;
+    align-items: center;
+  }
 }
 
 body {
@@ -1722,8 +1732,8 @@ footer {
   }
 
   .tradingview-widget-container {
-    width: 192px !important;
-    height: 100% !important;
+    width: 100% !important;
+    height: 600px !important;
   }
   .tradingview-widget-container iframe{
     width: 100% !important;
@@ -1731,6 +1741,10 @@ footer {
   }
   .trading_shadow {
     width: 670px;
+  }
+
+  .num_block_end {
+    display: flex;
   }
 }
 
@@ -1798,8 +1812,8 @@ footer {
   }
 
   .tradingview-widget-container {
-    width: 320px !important; 
-    height: 135px !important;
+    width: 100% !important; 
+    height: 600px !important;
   }
 
   .step_down {
@@ -1982,6 +1996,16 @@ footer {
   .text_bg_right_img,
   .text_bg_right_block {
     position: static;
+  }
+
+  .stock_text {
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+
+  .stock_item {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -2870,8 +2894,13 @@ border-bottom: 3px solid #4169e1;
 }
 
 
-
-
+.top {
+  min-height: 517px;
+  background-color: #233652;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
 @media (max-width: 1430px) {
   .page_ico_block_text br {
@@ -2886,6 +2915,20 @@ border-bottom: 3px solid #4169e1;
 
   .third_brand {
     padding-left: 0;
+  }
+
+  .page_ico_block_text {
+    margin-top: 0;
+  }
+
+  .stock_text {
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+
+  .stock_item {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -2972,8 +3015,9 @@ border-bottom: 3px solid #4169e1;
 
 @media (max-width: 768px) {
   .tradingview-widget-container {
-    width: 245px !important;
-    height: 100% !important;
+    width: 400px !important;
+    height: 600px !important;
+    margin: 0 auto;
   }
   .text_bg_right_block {
     order: -1;
@@ -2982,6 +3026,16 @@ border-bottom: 3px solid #4169e1;
 
   .text_bg_left_block {
     padding-bottom: 20px;
+  }
+
+  .stock_text {
+    margin-bottom: 0;
+    padding-left: 30px;
+  }
+
+  .stock_item {
+    display: flex;
+    align-items: center;
   }
 
   .text_bg_left {
@@ -2998,6 +3052,8 @@ border-bottom: 3px solid #4169e1;
   }
   .page_red {
     margin-top: 132px;
+    padding-right: 12px;
+    padding-left: 12px;
   }
   .awards_mini_img {
     margin-top: 25px;
@@ -3019,6 +3075,11 @@ border-bottom: 3px solid #4169e1;
   .trading_description_block {
     width: 185px;
     margin-right: 0px;
+  }
+
+
+  .num-pl {
+    padding-left: 0;
   }
 
   .trading_info_title {
@@ -3069,6 +3130,32 @@ border-bottom: 3px solid #4169e1;
 
   .page_red {
     max-width: 570px;
+    margin-top: 112px;
+    padding-bottom: 20px;
+  }
+
+  .page_full_bg_clear {
+    margin-bottom: 30px;
+  }
+
+  .indices__table {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .indices__item:not(:last-child) {
+    width: 100%;
+    margin-bottom: -30px;
+  }
+
+
+  .default_padding {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .default_padding_bottom {
+    padding-bottom: 35px;
   }
 }
 
@@ -3080,8 +3167,8 @@ border-bottom: 3px solid #4169e1;
     padding-top: 0;
   }
   .tradingview-widget-container {
-    width: 245px !important;
-    height: 100% !important;
+    width: 300px !important;
+    height: 600px !important;
   }
   /* .page_text {
     padding-bottom: 35px;
@@ -3102,21 +3189,13 @@ border-bottom: 3px solid #4169e1;
     min-width: auto;
   }
 
-  .page_red--_indicies {
-    max-width: none;
-    min-width: auto;
-    margin-top: 177px;
-    max-width: 375px;
+  .page_title {
+    font-size: 22px;
+    padding-top: 75px;
   }
 
-  .page_title--_indicies {
-    padding-top: 70px;
-  }
-
-  .page_title--about {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 30px;
+  .page_text {
+    font-size: 12px;
   }
 
   .reg_form {
@@ -3148,6 +3227,24 @@ border-bottom: 3px solid #4169e1;
   .third_brand {
     padding-left: 10px;
   }
+
+  .reg_footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .default_padding_mini_bottom {
+    padding-bottom: 20px;
+  }
+
+  .phone__img {
+    width: 100%;
+  }
+
+  .slider__size {
+    width: 145px;
+  }
+  
 } 
 
 
@@ -3158,11 +3255,5 @@ border-bottom: 3px solid #4169e1;
 
   .third_brand {
     margin-right: 80px;
-  }
-} 
-
-@media (max-width: 407px) {
-  .page_title--about {
-    padding-top: 43px;
   }
 } 
