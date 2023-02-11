@@ -1,0 +1,27 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<path id="Oval Copy 2" opacity="0.2" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#E0E0E0"/>
+<g id="Oval Copy" filter="url(#filter0_d)">
+<path d="M40 69C56.0163 69 69 56.0163 69 40C69 23.9837 56.0163 11 40 11C23.9837 11 11 23.9837 11 40C11 56.0163 23.9837 69 40 69Z" fill="white"/>
+</g>
+<g id="Group">
+<path id="Shape" d="M38.4902 51.5139H29.4902C28.9379 51.5139 28.4902 51.0662 28.4902 50.5139V29.5139C28.4902 28.9616 28.9379 28.5139 29.4902 28.5139H42.7832C43.0484 28.514 43.3027 28.6194 43.4902 28.8069L47.2002 32.5139C47.3878 32.7014 47.4932 32.9557 47.4932 33.2209V36.5139" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M31.4902 43.5139H37.4902" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M32.9902 38.5139H33.9902C34.2664 38.5139 34.4902 38.7378 34.4902 39.0139V43.5139H32.4902V39.0139C32.4902 38.7378 32.7141 38.5139 32.9902 38.5139Z" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M38.4902 40.5139V36.0139C38.4902 35.7378 38.2664 35.5139 37.9902 35.5139H36.9902C36.7141 35.5139 36.4902 35.7378 36.4902 36.0139V43.5139" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M45.4902 51.5139C48.8039 51.5139 51.4902 48.8276 51.4902 45.5139C51.4902 42.2002 48.8039 39.5139 45.4902 39.5139C42.1765 39.5139 39.4902 42.2002 39.4902 45.5139C39.4902 48.8276 42.1765 51.5139 45.4902 51.5139Z" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" d="M47.4902 45.5139H45.4902V42.5139" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="5" y="5" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0650404 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

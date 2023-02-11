@@ -1,0 +1,22 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<path id="Oval Copy 2" opacity="0.2" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#E0E0E0"/>
+<g id="Oval Copy" filter="url(#filter0_d)">
+<path d="M40 69C56.0163 69 69 56.0163 69 40C69 23.9837 56.0163 11 40 11C23.9837 11 11 23.9837 11 40C11 56.0163 23.9837 69 40 69Z" fill="white"/>
+</g>
+<g id="Group 137">
+<path id="Path" fill-rule="evenodd" clip-rule="evenodd" d="M51 43C51 43.6188 50.7542 44.2123 50.3166 44.6499C49.879 45.0875 49.2855 45.3333 48.6667 45.3333H34.6667L30 50V31.3333C30 30.7145 30.2458 30.121 30.6834 29.6834C31.121 29.2458 31.7145 29 32.3333 29H48.6667C49.2855 29 49.879 29.2458 50.3166 29.6834C50.7542 30.121 51 30.7145 51 31.3333V43Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="5" y="5" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0650404 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

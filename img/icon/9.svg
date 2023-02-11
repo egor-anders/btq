@@ -1,0 +1,26 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 13">
+<path id="Oval Copy 2" opacity="0.2" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#E0E0E0"/>
+<g id="Oval Copy" filter="url(#filter0_d)">
+<path d="M40 69C56.0163 69 69 56.0163 69 40C69 23.9837 56.0163 11 40 11C23.9837 11 11 23.9837 11 40C11 56.0163 23.9837 69 40 69Z" fill="white"/>
+</g>
+<g id="Group">
+<rect id="Rectangle-path" x="28.5" y="34.002" width="23" height="16" rx="3" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape" d="M36.5 34V32C36.5027 30.8966 37.3966 30.0027 38.5 30H41.5C42.6032 30.0033 43.4967 30.8968 43.5 32V34" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" d="M40 39.002V38.002" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" d="M41.5002 39H39.4672C38.8245 39.0004 38.2724 39.4564 38.1505 40.0873C38.0285 40.7183 38.371 41.3471 38.9672 41.587L41.0312 42.412C41.6287 42.651 41.9724 43.2807 41.8504 43.9126C41.7283 44.5445 41.1748 45.0007 40.5312 45H38.5002" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" d="M40 46.002V45.002" stroke="#4169e1" stroke-width="0.9" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="5" y="5" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0650404 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>

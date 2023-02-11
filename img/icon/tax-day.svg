@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>tax-day</title>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="20.3"></circle>
+        <filter x="-22.2%" y="-22.2%" width="144.3%" height="144.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0650404283 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-593.000000, -5062.000000)">
+            <g id="Info" transform="translate(263.000000, 4991.000000)">
+                <g id="tax-day" transform="translate(330.000000, 71.000000)">
+                    <g id="Point-3">
+                        <g>
+                            <circle id="Oval-Copy-2" fill="#E0E0E0" fill-rule="nonzero" opacity="0.05" cx="28" cy="28" r="28"></circle>
+                            <g id="Oval-Copy" opacity="0.15" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <polyline id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" points="25.737 34.894 25.737 30.144 25.139 30.715"></polyline>
+                    <path d="M30.824,30.144 L28.65,30.144 L28.65,32.644 L29.737,32.644 C30.0544243,32.6447861 30.356035,32.7826568 30.5643275,33.0221836 C30.77262,33.2617104 30.8672862,33.57954 30.824,33.894 C30.8672862,34.20846 30.77262,34.5262896 30.5643275,34.7658164 C30.356035,35.0053432 30.0544243,35.1432139 29.737,35.144 L28.65,35.144" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="20.482" y1="26.895" x2="37.482" y2="26.895" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <path d="M22.955,21.895 L20.271,21.895 C19.22536,21.9546441 18.4251772,22.8492028 18.482,23.895 L18.482,35.895 C18.4251772,36.9407972 19.22536,37.8353559 20.271,37.895 L35.692,37.895 C36.7380383,37.8358847 37.5388116,36.9411659 37.482,35.895 L37.482,23.9 C37.5388116,22.8538341 36.7380383,21.9591153 35.692,21.9 L34.482,21.9" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <line x1="32.482" y1="19.895" x2="32.482" y2="23.895" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="23.482" y1="19.895" x2="23.482" y2="23.895" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="25.482" y1="21.895" x2="32.441" y2="21.88" id="Path" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

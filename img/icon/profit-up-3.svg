@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profit-up-3</title>
+    <defs>
+        <circle id="path-1" cx="28" cy="28" r="20.3"></circle>
+        <filter x="-22.2%" y="-22.2%" width="144.3%" height="144.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0650404283 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-487.000000, -5062.000000)">
+            <g id="Info" transform="translate(263.000000, 4991.000000)">
+                <g id="profit-up-3" transform="translate(224.000000, 71.000000)">
+                    <path d="M36.9956272,23.3494397 C37.1456362,23.5010382 37.2128664,23.7159388 37.176,23.926 L36.516,26.893 L35.857,29.861 C35.8006809,30.0614492 35.6372669,30.2137514 35.4333542,30.2558386 C35.2294416,30.2979259 35.0190805,30.2227702 34.888,30.061 L33.1,27.2 L30.257,25.384 C30.0972886,25.2501943 30.0254284,25.0385543 30.0706492,24.8351661 C30.11587,24.6317778 30.2706378,24.4705256 30.472,24.417 L36.421,23.163 C36.6314381,23.1283497 36.8456182,23.1978411 36.9956272,23.3494397 Z" id="Combined-Shape" stroke="#FAFAFA" stroke-linecap="round"></path>
+                    <g id="Point-3">
+                        <g>
+                            <circle id="Oval-Copy-2" fill="#E0E0E0" fill-rule="nonzero" opacity="0.05" cx="28" cy="28" r="28"></circle>
+                            <g id="Oval-Copy" opacity="0.15" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <polyline id="Path" stroke="#FAFAFA" stroke-linecap="round" points="33.103 27.207 27.811 32.5 23.811 28.5 18.811 33.5"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

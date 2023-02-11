@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="8px" viewBox="0 0 14 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <defs>
+        <path d="M15.6758617,7.62709885 L11,11.9446694 L11,11.9446694 L6.3241383,7.62709885 C5.94073573,7.27307477 5.34956132,7.27339612 4.96654386,7.6278368 L4.79313184,7.78831062 C4.38777881,8.16342042 4.36326183,8.79611056 4.73837163,9.20146359 C4.75591113,9.2204172 4.77417822,9.2386843 4.79313184,9.2562238 L11,15 L11,15 L17.2068682,9.2562238 C17.6122212,8.88111399 17.6367382,8.24842386 17.2616284,7.84307083 C17.2440889,7.82411721 17.2258218,7.80585011 17.2068682,7.78831062 L17.0334561,7.6278368 C16.6504387,7.27339612 16.0592643,7.27307477 15.6758617,7.62709885 Z" id="path-1"></path>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-384.000000, -25.000000)">
+            <g id="Language" transform="translate(274.000000, 14.000000)">
+                <g id="Arrow-Down" transform="translate(106.000000, 4.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Shape" fill-opacity="0.7" fill="#000000" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <g id="Black" mask="url(#mask-2)" fill="#000000" fill-rule="evenodd">
+                        <rect id="Rectangle" x="0" y="0" width="22" height="22"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

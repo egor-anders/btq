@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="266px" height="1px" viewBox="0 0 266 1" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Divider</title>
+    <defs>
+        <linearGradient x1="0.748600746%" y1="100%" x2="100%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0.1" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main" transform="translate(-274.000000, -5876.000000)" fill="url(#linearGradient-1)">
+            <polygon id="Divider" transform="translate(409.000000, 5876.500000) scale(1, -1) translate(-409.000000, -5876.500000) " points="274 5876 544 5876 544 5877 274 5877"></polygon>
+        </g>
+    </g>
+</svg>

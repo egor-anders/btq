@@ -1,0 +1,33 @@
+<svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 11">
+<path id="Oval Copy 2" opacity="0.2" d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z" fill="#E0E0E0"/>
+<g id="Oval Copy" filter="url(#filter0_d)">
+<path d="M40 69C56.0163 69 69 56.0163 69 40C69 23.9837 56.0163 11 40 11C23.9837 11 11 23.9837 11 40C11 56.0163 23.9837 69 40 69Z" fill="white"/>
+</g>
+<g id="Group">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M32.5 47.2C32.5 46.9349 32.2761 46.72 32 46.72H30C29.7239 46.72 29.5 46.9349 29.5 47.2V50.56H32.5V47.2Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M38.5 42.3999C38.5 42.1348 38.2761 41.9199 38 41.9199H36C35.7239 41.9199 35.5 42.1348 35.5 42.3999V50.5599H38.5V42.3999Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M44.5 45.28C44.5 45.015 44.2761 44.8 44 44.8H42C41.7239 44.8 41.5 45.015 41.5 45.28V50.56H44.5V45.28Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_4" fill-rule="evenodd" clip-rule="evenodd" d="M50.5 37.6001C50.5 37.335 50.2761 37.1201 50 37.1201H48C47.7239 37.1201 47.5 37.335 47.5 37.6001V50.5601H50.5V37.6001Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_5" d="M28.5039 50.5601H51.5039" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_6" d="M31.918 36.2426L34.59 33.6775" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_7" d="M37.7319 33.2876L40.2759 34.7122" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Shape_8" d="M43.5771 34.4935L47.4311 31.5867" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval" fill-rule="evenodd" clip-rule="evenodd" d="M49.0039 32.32C50.1085 32.32 51.0039 31.4604 51.0039 30.4C51.0039 29.3396 50.1085 28.48 49.0039 28.48C47.8993 28.48 47.0039 29.3396 47.0039 30.4C47.0039 31.4604 47.8993 32.32 49.0039 32.32Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval_2" fill-rule="evenodd" clip-rule="evenodd" d="M42.0039 37.6C43.1085 37.6 44.0039 36.7404 44.0039 35.68C44.0039 34.6196 43.1085 33.76 42.0039 33.76C40.8993 33.76 40.0039 34.6196 40.0039 35.68C40.0039 36.7404 40.8993 37.6 42.0039 37.6Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval_3" fill-rule="evenodd" clip-rule="evenodd" d="M36.0039 34.2399C37.1085 34.2399 38.0039 33.3803 38.0039 32.3199C38.0039 31.2595 37.1085 30.3999 36.0039 30.3999C34.8993 30.3999 34.0039 31.2595 34.0039 32.3199C34.0039 33.3803 34.8993 34.2399 36.0039 34.2399Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Oval_4" fill-rule="evenodd" clip-rule="evenodd" d="M30.5039 39.5199C31.6085 39.5199 32.5039 38.6603 32.5039 37.5999C32.5039 36.5395 31.6085 35.6799 30.5039 35.6799C29.3993 35.6799 28.5039 36.5395 28.5039 37.5999C28.5039 38.6603 29.3993 39.5199 30.5039 39.5199Z" stroke="#4169e1" stroke-width="0.8" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d" x="5" y="5" width="70" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="3"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0650404 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow" result="shape"/>
+</filter>
+</defs>
+</svg>
