@@ -182,7 +182,6 @@ header {
 
 
 
-
 .lang_block {
   margin-top: 10px;
   cursor: pointer;
@@ -983,6 +982,7 @@ a.step_donw_href_gray:hover {
 
 .num_bg {
   text-align: center;
+  position: relative;
 }
 
 .num_bg_img {
@@ -1009,6 +1009,7 @@ a.step_donw_href_gray:hover {
   z-index: -1;
   display: block;
   width: 100%;
+  
 }
 
 .trading {
@@ -1584,6 +1585,8 @@ footer {
   right: 0;  
 }
 
+
+
 @media (max-width: 1740px) {
   .director_block {
     margin-top: 250px;
@@ -1617,8 +1620,9 @@ footer {
   .menu_points {
     display: block;
   }
+
   .teaser {
-    width: 400px;
+    width: 100%;
   }
 
   .laptop-margin {
@@ -1658,8 +1662,12 @@ footer {
     background-size: 190px;
   }
   .num_bg_img {
-    bottom: -12px;
-  }
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
   .step_text_down {
     font-size: 18px;
   }
@@ -1816,6 +1824,10 @@ footer {
     background-size: 670px;
     background-position-x: 531px;
   }
+
+  .awards_img_block {
+    row-gap: 40px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1825,6 +1837,8 @@ footer {
   .menu_up_item img {
     display: none;
   }
+
+
   .teaser_block {
     max-width: 100%;
   }
@@ -2067,6 +2081,9 @@ footer {
     display: flex;
     align-items: center;
   }
+
+
+
 }
 
 
@@ -2353,6 +2370,7 @@ border-bottom: 3px solid #4169e1;
   max-height: 360px;
   border-radius: 100px 0px 0px 100px;
 }
+
 
 .text_bg_left_img {
   width: 100%;
@@ -3117,9 +3135,7 @@ border-bottom: 3px solid #4169e1;
     height: auto;
   } 
 
-  .tablet-margin {
-    margin-left: 0;
-  }
+
 
   .text_bg_left_block {
     padding-bottom: 20px;
@@ -3282,19 +3298,74 @@ border-bottom: 3px solid #4169e1;
   .partners_list {
     grid-template-columns: 1fr;
   }
+
+  .awards_img_block {
+    row-gap: 0;
+  }
+
+  .brands {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  
+  .brand {
+    max-width: none;
+  }
+
 }
 
 
+@media (max-width: 767px) {
+  .tablet-margin {
+    margin-left: 0;
+  }
 
+}
 
 
 @media (max-width: 576px) {
+  header {
+    height: auto;
+    min-height: 100px;
+  }
+
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__lang {
+    order: 2;
+  }
+
+  .header__item:first-child {
+    margin-left: 0;
+  }
+
+  .header__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+  }
+
   .page_ico_block_text {
     padding-top: 0;
   }
   .tradingview-widget-container {
     width: 300px ;
     height: 600px;
+  }
+
+  .html_menu {
+    padding-left: 0;
+  }
+
+  .brands {
+    grid-template-columns: 1fr;
   }
 
   .pre_footer_title {
@@ -3377,12 +3448,10 @@ border-bottom: 3px solid #4169e1;
     font-size: 16px;
   }
 
-  .brands {
-    flex-direction: column;
-  }
+
 
   .third_brand {
-    padding-left: 10px;
+    padding-left: 0;
   }
 
   .reg_footer {
@@ -3425,7 +3494,8 @@ border-bottom: 3px solid #4169e1;
   .num_bg_text {
     font-size: 56px;
     margin-top: -50px;
-  }
+    position: relative;
+}
 
   .nums_panel {
     display: grid;
@@ -3468,9 +3538,5 @@ border-bottom: 3px solid #4169e1;
 @media (max-width: 414px) {
   a.button {
     font-size: 16px;
-  }
-
-  .third_brand {
-    margin-right: 80px;
   }
 } 

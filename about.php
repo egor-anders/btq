@@ -145,16 +145,16 @@
         </div>
 
         <div class="row justify-content-center align-items-center brands">
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 brand">
                 <img src="./img/output/qiwi.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 brand">
                 <img src="./img/output/neteller.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 third_brand">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 brand third_brand">
                 <img src="./img/output/mastercard.svg">
             </div>
-            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3">
+            <div class="output_img col-6 col-md-6 col-lg-3 col-xl-3 brand">
                 <img src="./img/output/webmoney.svg">
             </div>
         </div>

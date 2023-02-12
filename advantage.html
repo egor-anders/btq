@@ -5,12 +5,12 @@
   <meta charset="utf-8" />
   <meta id="vp" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" /> 
   <script>
-    window.onload = function() {
-        if (screen.width < 576) {
-            var mvp = document.getElementById('vp');
-            mvp.setAttribute('content','user-scalable=no,width=576');
-        }
-    }
+    // window.onload = function() {
+    //     if (screen.width < 576) {
+    //         var mvp = document.getElementById('vp');
+    //         mvp.setAttribute('content','user-scalable=no,width=576');
+    //     }
+    // }
   </script>
   <link rel="stylesheet" href="/css/bootstrap-reboot.min.css" />
   <link rel="stylesheet" href="/css/bootstrap-grid.min.css" />
@@ -25,59 +25,60 @@
 <body>
 
 <header>
-    <div class="container">
-        <!--<div class="row">-->
-            <div class="lang_block left"> 
+    <div class="container header__container">
+            <div class="lang_block header__lang left"> 
                 <img src="../img/ru.jpg" class="lang_img left"> <div class="lang left">Русский</div> <img src="../img/arrow.svg" class="lang_arrow left">
             </div>
 
-            <div class="menu_up right">
-                <div class="menu_up_item"><a href="#"><img src="../img/icon/icon_up_one.svg">Мировые рынки</a></div>
-                <div class="menu_up_item"><a href="#"><img src="../img/icon/icon_up_two.svg">Поддержка</a></div>
-                <div class="menu_up_item"><a href="#"><img src="../img/icon/icon_up_tree.svg">Вход в кабинет</a></div>
+            <div class="menu_up header__menu right">
+                <div class="menu_up_item header__item"><a href="#"><img src="../img/icon/icon_up_one.svg">Мировые рынки</a></div>
+                <div class="menu_up_item header__item"><a href="#"><img src="../img/icon/icon_up_two.svg">Поддержка</a></div>
+                <div class="menu_up_item header__item"><a href="#"><img src="../img/icon/icon_up_tree.svg">Вход в кабинет</a></div>
             </div>
-        <!--</div>-->
     </div>
 </header>
 
-<section class="one">
-    <div class="container">
-        <div class="logo left"><a href="#"><img src="../img/logo_white.svg" class="logo_img"><img src="../img/logo_text.svg" class="logo_text"></a></div>
-
-        <div class="menu right">
-
-            <div class="menu_item"><a href="#">О компании</a></div>
-            <div class="menu_item"><a href="#">Торговать</a></div>
-            <div class="menu_item"><a href="#">Продукты</a></div>
-            <div class="menu_media">
-                <div class="menu_item"><a href="#">Аналитики</a></div>
-                <div class="menu_item"><a href="#">Обучение</a></div>
-                <div class="menu_item"><a href="#">Партнерство</a></div>
-            </div>
-            <div class="menu_points">
-                <div class="menu_item"><a href="#">...</a></div>
-            </div>
-
-            <a href="#" class="button"><img src="../img/open.svg" class="button_icon"> Открыть счет</a>
-            <div class="burger"><img src="../img/menu.svg"></div>
-        </div>
-    </div>
-</section>
-
-<img src="./img/page/about.jpg" class="bg_page">
-
-<section class="page"> 
-    <div class="container">
-        <div class="page_red">
-            <div class="page_title">Наши преимущества</div>
-            <div class="page_text">
-                Жизнь это всегда развитие и движение <br>
-                только вперед
+<div class="top" style="background-image: url('/img/page/about.jpg');">
+    <section class="one">
+        <div class="container">
+            <div class="logo left"><a href="#"><img src="../img/logo_white.svg" class="logo_img"><img src="../img/logo_text.svg" class="logo_text"></a></div>
+    
+            <div class="menu right">
+    
+                <div class="menu_item"><a href="#">О компании</a></div>
+                <div class="menu_item"><a href="#">Торговать</a></div>
+                <div class="menu_item"><a href="#">Продукты</a></div>
+                <div class="menu_media">
+                    <div class="menu_item"><a href="#">Аналитики</a></div>
+                    <div class="menu_item"><a href="#">Обучение</a></div>
+                    <div class="menu_item"><a href="#">Партнерство</a></div>
+                </div>
+                <div class="menu_points">
+                    <div class="menu_item"><a href="#">...</a></div>
+                </div>
+    
+                <a href="#" class="button"><img src="../img/open.svg" class="button_icon"> Открыть счет</a>
+                <div class="burger"><img src="../img/menu_on.svg"></div>
             </div>
         </div>
-
+    </section>
+    
+    
+    <section class="page"> 
+        <div class="container">
+            <div class="page_red">
+                <div class="page_title">Наши преимущества</div>
+                <div class="page_text">
+                    Жизнь это всегда развитие и движение <br>
+                    только вперед
+                </div>
+            </div>
+    
+        </div>
+    </section>
+    
     </div>
-</section>
+
 
 <section class="page_menu">
     <div class="container">
@@ -98,7 +99,7 @@
 
 <section class="page_bread">
     <div class="container">
-        <ul class="page_bread_ul">
+        <ul class="page_bread_ul html_menu">
             <li class="page_bread_li"><a href="#">Главная</a></li>
             <li>/</li>
             <li class="page_bread_li"><a href="#">О нашей компании</a></li>
@@ -294,7 +295,7 @@
                     Также обязательным условиям работы брокерской компании, работающей на основе лицензии европейской комиссии, является наличие у брокерской компании системы внутренней безопасности, предусматривающей хранение денежных средств клиентов на отдельных счетах.
                 </div>
             </div>
-            <div class="col-md-6 right text_bg_right_block">
+            <div class="col-md-6 right text_bg_right_block" style="width: 100%;">
                 <img class="text_bg_right_img" src="../img/page/bitmap/adv_one.png">
             </div>
         </div>
@@ -387,7 +388,7 @@
 
 <section class="page_bread">
     <div class="container">
-        <ul class="page_bread_ul">
+        <ul class="page_bread_ul html_menu">
             <li class="page_bread_li"><a href="#">Главная</a></li>
             <li>/</li>
             <li class="page_bread_li"><a href="#">О нашей компании</a></li>
