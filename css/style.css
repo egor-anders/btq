@@ -74,6 +74,15 @@ body {
   min-width: 320px;
 }
 
+.html__padding {
+  padding: 50px 0;
+}
+
+.vert_text {
+  display: flex;
+  flex-direction: column;
+}
+
 input {
   outline: 0;
 }
@@ -1663,10 +1672,9 @@ footer {
   }
   .num_bg_img {
     bottom: 0;
-    position: absolute;
     left: 0;
     width: 100%;
-}
+  }
 
   .step_text_down {
     font-size: 18px;
@@ -1803,6 +1811,15 @@ footer {
     background-size: 850px;
     background-position-x: 650px;
   }
+
+  .rule_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .rule_item {
+    max-width: none;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -1837,6 +1854,17 @@ footer {
   .menu_up_item img {
     display: none;
   }
+
+  .rule_list {
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+
+  }
+
+  
+  .commodities_text {
+    max-width: 50%;
+}
 
 
   .teaser_block {
@@ -2082,25 +2110,13 @@ footer {
     align-items: center;
   }
 
-
+  .commodities_item {
+      display: grid;
+      padding-left: 0;
+      grid-template-columns: min-content 1fr;
+  }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* Alfa */
@@ -2329,6 +2345,16 @@ border-bottom: 3px solid #4169e1;
   display: flex;
 }
 
+.comand_item {
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  align-items: center;
+  padding-left: 0;
+  gap: 10px;
+}
+
+
+
 .page_ico_block_text {
   font-size: 16.0px;
   color: #2e2e3d;
@@ -2339,6 +2365,11 @@ border-bottom: 3px solid #4169e1;
 
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.comand_text {
+  max-width: none;
+  margin-bottom: 0;
 }
 
 .page_ico_block_ico {
@@ -3116,6 +3147,10 @@ border-bottom: 3px solid #4169e1;
     margin: 0 auto;
   }
 
+  .comand_icons {
+    gap: 50px;
+  }
+
   .tradingview-widget-container--index {
     width: 100% !important;
     height: auto !important;
@@ -3314,6 +3349,14 @@ border-bottom: 3px solid #4169e1;
     max-width: none;
   }
 
+  .awards_page {
+    padding-bottom: 0;
+  }
+
+  .commodities_text {
+    max-width: none;
+  }
+
 }
 
 
@@ -3331,10 +3374,15 @@ border-bottom: 3px solid #4169e1;
     min-height: 100px;
   }
 
+  .num_bg_img {
+  position: absolute;
+  }
+
   .header__container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 15px;
   }
 
   .header__lang {
@@ -3492,7 +3540,7 @@ border-bottom: 3px solid #4169e1;
   }
 
   .num_bg_text {
-    font-size: 56px;
+    font-size: 46px;
     margin-top: -50px;
     position: relative;
 }
